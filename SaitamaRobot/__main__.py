@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {Eren Yeager}! 
 I am an Anime themed group management bot.
-Help me to grow my Eldian Empire.I specialize in managing anime and similar themed groups.
+Help me to grow my Eldian Empire,I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
@@ -205,7 +205,27 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/hindisubanimes")
+                             url=https/t.me/hindisubanimes
+https://www.hindianime.net
+
+Hindi Sub Anime News
+https://t.me/hindisubanimenews
+
+Facebook Page:
+https://www.facebook.com/hindisubanime
+
+HSA Discussion Group:
+@hsadis
+https://www.hindianime.net
+
+Hindi Sub Anime News
+https://t.me/hindisubanimenews
+
+Facebook Page:
+https://www.facebook.com/hindisubanime
+
+HSA Discussion Group:
+@hsadiscussion
                      ],
                      [
                         InlineKeyboardButton(
