@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/103/thumb-1920-1031089.jpg"
+SAITAMA_IMG = https://wall.alphacoders.com/big.php?i=653510
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -206,26 +206,7 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
                              url=https/t.me/hindisubanimes
-https://www.hindianime.net
 
-Hindi Sub Anime News
-https://t.me/hindisubanimenews
-
-Facebook Page:
-https://www.facebook.com/hindisubanime
-
-HSA Discussion Group:
-@hsadis
-https://www.hindianime.net
-
-Hindi Sub Anime News
-https://t.me/hindisubanimenews
-
-Facebook Page:
-https://www.facebook.com/hindisubanime
-
-HSA Discussion Group:
-@hsadiscussion
                      ],
                      [
                         InlineKeyboardButton(
@@ -239,7 +220,7 @@ HSA Discussion Group:
                      [
                         InlineKeyboardButton(
                              text=" ❤️ Source Code ",
-                             url="https://github.com/Ayan777-creator/erenyeagerbot879135")
+                             url="https://github.com/Ayan777-creator/erenyeager34")
                     
                     ]]))
     else:
