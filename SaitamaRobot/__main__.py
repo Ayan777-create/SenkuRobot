@@ -51,15 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
+Hi {}, my name is {Eren Yeager}! 
 I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+Help me to grow my Eldian Empire.I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
+Hey there! My name is *{Eren Yeager}*.
+I'm Founding Titan & I help Eldians to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -201,25 +201,25 @@ def start(update: Update, context: CallbackContext):
                     [[
                         InlineKeyboardButton(
                             text=" 👑 Summon Me ",
-                            url="t.me/{}?startgroup=true".format(
+                            url="t.me/{Eren_Yeager_AttackTitan_bot}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             url="https://t.me/hindisubanimes")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/SenkuRobot?start=help"),
+                            url="https://t.me/Eren_Yeager_AttackTitan_bot?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                             url="https://t.me/hindisubanimes/4")        
                        
                      ],
                      [
                         InlineKeyboardButton(
                              text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
+                             url="https://github.com/Ayan777-creator/erenyeagerbot879135")
                     
                     ]]))
     else:
@@ -336,7 +336,7 @@ def get_help(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
                     text="Help",
-                    url="t.me/{}?start=help".format(context.bot.username))
+                    url="t.me/{Eren_Yeager_AttackTitan_bot}?start=help".format(context.bot.username))
             ]]))
         return
 
@@ -476,7 +476,7 @@ def get_settings(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
                         text="Settings",
-                        url="t.me/{}?start=stngs_{}".format(
+                        url="t.me/{Eren_Yeager_AttackTitan_bot}?start=stngs_{}".format(
                             context.bot.username, chat.id))
                 ]]))
         else:
@@ -497,7 +497,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID !=  and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
